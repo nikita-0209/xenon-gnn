@@ -37,4 +37,4 @@ The idea behind minCUT pooling is to take a continuous relaxation of the minCUT 
 GCN is inspired by a message passing neural network architecture. Node representations are learned via layer-wise propagation (first-order approximation of localized spectral filters) by aggregating the local neighbourhood information.
 
 ## Results
-The Graph Neural Network (with 200k trainable parameters) obtained an RMSE of 1.936 cm. It outperformed a Convolutional Neural Network (with 5 million trainable parameters) by 12%, and the original software used for positon reconstruction by XENON (straxen) by 67%.
+The GCN (with 200k trainable parameters) obtained an RMSE of 1.936 cm. It outperformed a Convolutional Neural Network (with 5 million trainable parameters) by 12%, and the original software used for positon reconstruction by XENON (straxen) by 67%. Rest of the graph neural networks didn't perform that well.

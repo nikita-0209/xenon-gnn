@@ -1,1 +1,1 @@
-# xenon-gnn
+# GNN for Position Reconstruction of the XENON Events
